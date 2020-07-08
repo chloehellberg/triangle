@@ -15,7 +15,7 @@ _This application allows the user to enter three separate numbers all adding up 
 
 ## Known Bugs
 
-_No known bugs at this time._
+_When inputting values for the isosceles triangle function, the first number you enter must not match i.e. the equal numbers need to be inputted in the second and third box._
 
 
 ## Technologies Used
