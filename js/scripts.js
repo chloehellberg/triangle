@@ -7,13 +7,16 @@ $(document).ready(function() {
     let totalSize = (number1 + number2 + number3)
     console.log(totalSize)
     
-    if (totalSize != 180) {   // Not a triangle
-      alert('This is not a triangle');
+    if (totalSize != 180) {            
+      alert('This is not a triangle - try again!');
     }
-//    } else if {   // Equiliateral is all three equal
-//      number1 === number2 && number3;
-//    } else if {   // Isosceles is two equal sides
-//
+    else if (number1 === number2 && number3) {                             
+      alert('This is a equilateral triangle - all three sides are equal!');
+    } 
+    else if (number1 < number2 === number3) {
+      alert('This is an isosceles triangle - there are two equal sides!');
+    }
+
 //    } else {      // scalene has no equal sides
 //
     
