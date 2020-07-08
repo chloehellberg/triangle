@@ -6,8 +6,8 @@ $(document).ready(function() {
 
     let totalSize = (number1 + number2 + number3)
     console.log(totalSize)
-    if {
-      totalSize != 180;  // Not a triangle
+    
+    if (totalSize != 180) {   // Not a triangle
       alert('This is not a triangle');
     }
 //    } else if {   // Equiliateral is all three equal
