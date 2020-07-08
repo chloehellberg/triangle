@@ -13,7 +13,7 @@ $(document).ready(function() {
     else if (number1 === number2 && number3) {                             
       alert('This is a equilateral triangle - all three sides are equal!');
     } 
-    else if (number1 < number2 === number3) {
+    else if (number1 === number2 || number2 === number3 || number1 === number3) {
       alert('This is an isosceles triangle - there are two equal sides!');
     }
 
